@@ -1,0 +1,121 @@
+body{
+    background-color: #9282e5;
+}
+.card{
+    margin-top: 100px;
+    width: 300px!important;
+    height: 429px!important;
+    font-size: 20px;
+    border: none;
+    box-shadow: -5px 5px 5px #0A0D0E;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.card-header{
+    width: 300px!important;
+    height: 144px!important;
+    background-color: #FAFAFA;
+}
+
+#total-numbers{
+    background-color: #FAFAFA;
+}
+
+#numbers{
+    background-color: #FAFAFA;
+}
+
+.counted-numbers{
+    font-size: 25px;
+    padding: 15px;
+}
+
+textarea{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    resize: none;
+    text-align: end;
+    background-color: #7fb87f;
+}
+
+.card-header:first-child {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.card-body{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col-3 input[type=button]:not(.bg-purple){
+    width: 75px!important;
+    height: 57px!important;
+    display: block;
+    color: #F4F4F6;
+}
+
+.br-left{
+    border-bottom-left-radius: 3px;
+}
+
+.br-right{
+    border-bottom-right-radius: 3px;
+}
+
+.bg-black input[type=button]{
+    background-color: #1E2326;
+    border-left: none;
+    border-right: 2px solid #24292C;
+    border-bottom: none;
+    border-top: 1px solid #24292C;
+}
+
+.bg-black input[type=button]:hover{
+    background-color: #292f32;
+    border-left: none;
+    border-right: 2px solid #292f32;
+    border-bottom: none;
+    border-top: 1px solid #292f32;
+}
+
+.bg-purple input[type=button]{
+    background-color: #5E4BB6;
+    font-size: 25px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-top: 2px solid #6351B9;
+}
+
+.bg-purple input[type=button]:hover{
+    background-color: #745bd6;
+    font-size: 25px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-top: 2px solid #745bd6;
+}
+
+#exit{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.bg-yellow{
+    background-color: #FEC208!important;
+    color: #1E2326!important;
+    box-shadow: -3px 3px 5px #0A0D0E;
+    border-top: none!important;
+}
+
+.bg-yellow:hover{
+    box-shadow: none;
+}
+
+.fs{
+    font-size: 35px!important;
+}
